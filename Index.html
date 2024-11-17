@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDES INFORMATICAS</title>
+     <link rel="stylesheet" type="text/css" href="Estilo.css">
+    <style>
+        /* Estilos del menú y el contenedor */
+        .menu-container {
+            width: 200px;
+            border-radius: 5px;
+            padding-top: 20px;
+            background-color: black;
+            list-style: none;
+            color: white;
+            position: fixed;  
+        }
+
+        .menu-item {
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #ddd;
+            position: relative;     
+        }
+
+        .submenu {
+            display: none;
+            padding-left: 20px;
+        }
+
+        /* Contenedor del contenido */
+        .content-container {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        .content {
+            display: none;
+            padding: 20px;
+            border: none;
+            margin-top: 10px;
+            background-color: #33b6b0;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .active {
+            display: block;
+        }
+         }
+         /* Centrar la imagen */
+        .img-centrada {
+            display: flex;
+            justify-content:flex-end;
+            margin-bottom: 20px;
+            width: 150;
+            
+            
+        }
+
+        /* Imagen a la derecha con texto al lado */
+        .contenedor-derecha {
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: flex-star;
+            margin-top: 20px; 
+            gap: 15px;
+            text-aling: center;
+        }
+
+        .contenedor-derecha img {
+            margin-right: 10px;
+            width: 200px;
+            height: auto;
+            
+        }
+        /* Estilo para el contenedor de audio */
+        .audio-container {
+            text-align: center;
+            margin-top: 50px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-right: 20px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+        }
+        .audio:hover; {
+            border-color: #45a049;
+        }
+        .text {
+            flex: 1;
+            padding-right: 20px;
+            text-align: justify;
+       }
+    </style>
+</head>
+
+                     <h1 style="color: black;
+              font-size: 70px"><center>
+              REDES INFORMATICAS</center></h1>
+                  
+                  
+
+<body>
+
+<div class="menu-container">
+    <div class="menu-item" onclick="toggleSubmenu('submenu1')">Redes Informaticas</div>
+    <div id="submenu1" class="submenu">
+        <div onclick="showContent('content1')">Inicio</div>
+    </div>
+    <div class="menu-item" onclick="toggleSubmenu('submenu2')">Tipos de Redes</div>
+    <div id="submenu2" class="submenu">
+        <div onclick="showContent('content2')">Red Lan</div>
+        <div onclick="showContent('content3')">Red Man</div>
+        <div onclick="showContent('content4')">Red Wan</div>
+        <div onclick="showContent('content5')">Red Wlan</div>
+        <div onclick="showContent('content6')">Red Can</div>
+        <div onclick="showContent('content7')">Red San</div>
+        <div onclick="showContent('content8')">Red Vlan</div>
+        <div onclick="showContent('content9')">Red Pan</div>
+        
+    </div>
+</div>
+
+<div class="content-container">
+    <div id="content1" class="content"><center><b style="font-size: 60px;">BIENVENIDOS</b></center>
+          <P>Las redes informáticas son un conjunto de equipos y dispositivos interconectados que permiten la comunicación 
+    y el intercambio de información entre ellos. Desde las primeras redes de computadoras surgidas en la década de 1960 hasta la actualidad, las redes 
+    informáticas han evolucionado de manera impresionante, convirtiéndose en una herramienta indispensable en el mundo empresarial y en la vida cotidiana 
+    de las personas.</P>
+
+              <div class="img-centrada" id="submenu1>
+                     <div class="img-centrada">
+   
+        <img src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\imagenes\rdes.webp ">
+                </div>    
+               
+  
+                           <p>Son sistemas de comunicación en la que distintos dispositivos actúan de emisor y receptor de manera alterna. Forman parte de una 
+                           red informática los dispositivos, los medios de conexión, la estructura y el modo de funcionamiento de las redes, la información y 
+                           los recursos compartidos.
+
+<center><b>Las redes informáticas cuentan con los siguientes elementos:</b></center>
+
+<center><b>Servidores:</b> los servidores son los que procesan el flujo de los datos y centralizan el control de la red.</center>
+<center><b>Clientes:</b> se refiere a los computadores que no son servidores, pero que forman parte de la red permitiendo a los usuarios el acceso a esta.</center>
+<center><b>Medios de transmisión:</b> se trata del cableado que permite la transmisión de la información.</center>
+<center><b>Elementos de hardware:</b> son las piezas que permiten el establecimiento físico de la red.</center>
+<center><b>Elementos de software:</b> son los programas requeridos para administrar todo el sistema operativo.</center></p>
+                 
+          <div class="audio-container">
+           <audio controls>
+             <source src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\audio\p_32607532_292.mp3" type="audio/mpeg">
+             </audio>
+                
+</div>
+ </div>
+
+    <div id="content2" class="content"><center><b style="font-size: 60px;">RED LAN</b></center>
+
+           <div class="audio-container">
+           <audio controls>
+             <source src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\audio\red lan.mp3" type="audio/mpeg">
+             </audio>
+               </div>
+              
+                           <div class="contenedor-derecha img" id="submenu2>
+                     <div class="contenedor-derecha">
+   
+        <img src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\imagenes\LAN.gif ">
+                </div>    
+               
+                       <div class="text">
+                           La red LAN requiere cables Ethernet y conmutadores de Capa 2 junto con dispositivos que se puedan conectar y 
+  comunicarse mediante Ethernet. 
+Las LAN más grandes a menudo incluyen conmutadores o enrutadores de capa 3 para agilizar los flujos de tráfico.
+Una LAN permite a los usuarios conectarse a servidores internos, sitios web y otras LAN que pertenecen a la misma red de área amplia (WAN).
+ 
+Ethernet y Wi-Fi son las dos formas principales de habilitar las conexiones LAN. Ethernet es una especificación del Instituto de Ingenieros 
+Eléctricos y Electrónicos (IEEE) que permite que las computadoras se comuniquen entre sí. Wi-Fi utiliza ondas de radio en el espectro de 2,4 gigahercios 
+(GHz) y 5 GHz para conectar computadoras a la LAN.
+
+Las tecnologías LAN heredadas, que incluyen token ring, la interfaz de datos distribuidos por fibra (FDDI) y la red informática de 
+recursos adjuntos (ARCNET) han perdido popularidad a medida que aumentaron las velocidades de Ethernet y Wi-Fi y disminuyeron los costos de conectividad.
+  </div>
+                           <div class="audio-container">
+           <audio controls>
+             <source src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\audio\ventajas lan.wav" type="audio/mpeg">
+             </audio>
+               </div>
+                              
+</div>
+ </div>
+
+    <div id="content3" class="content"><center><b style="font-size: 60px;">RED MAN </b></center>
+               
+                      <div class="contenedor-derecha img" id="submenu2>
+                     <div class="contenedor-derecha">
+   
+        <img src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\imagenes\MAN.webp ">
+                </div>    
+
+                                    <div class="text">
+                          Una red de área metropolitana o MAN (Metropolitan Area Network, por sus siglas en inglés) es una red que interconecta 
+usuarios con recursos informáticos en una región geográfica del tamaño de un área metropolitana.
+Las redes MAN no tienen que estar en áreas urbanas; el término "metropolitano" implica el tamaño de la red, no la demografía del área a la que sirve. 
+Estas normalmente se utilizan en ciudades y otros lugares con un rango de cobertura de 50 a 60 km.
+Las redes de área metropolitana son más grandes que una red de área local (LAN) , pero ubicada en una sola área geográfica que es más pequeña que una 
+red de área amplia (WAN) . Por lo general, las redes MAN se trata de varias redes LAN interconectadas a través de una conexión troncal dedicada. 
+Las redes de área metropolitana son redes de alta velocidad que brindan una gran capacidad de transferencia información, y debido a las largas distancias, 
+la fibra óptica es un medio de transmisión eficiente para la conexión de este tipo de redes. En pocas palabras, una red de área metropolitana (MAN) se puede 
+considerar como un grupo de una o más redes LAN conectadas entre sí.
+  </div>
+               
+
+           <div class="audio-container">
+           <audio controls>
+             <source src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\audio\red man.wav" type="audio/mpeg">
+             </audio>
+               </div>
+
+         <div class="contenedor-derecha img" id="submenu2>
+                     <div class="contenedor-derecha">
+   
+        <img src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\imagenes\RED MAN.png ">
+                </div> 
+
+     <p><center><br><b>¿La arquitectura de los MAN:</b></br></center>
+<br>La arquitectura de una Red de Área Metropolitana suele comprender varios componentes clave:</br>
+
+<br>1.Infraestructura: En el núcleo de cada MAN se encuentra una infraestructura sólida que consta de cables de fibra óptica de alta velocidad o enlaces inalámbricos. 
+Estas conexiones forman los principales canales de comunicación a través de los cuales los datos viajan a través del área metropolitana.</br>
+<br>2.Nodos de distribución: Los nodos de distribución sirven como intermediarios dentro de MAN, donde el tráfico se enruta y distribuye a diferentes segmentos de la red. 
+Estos nodos están ubicados estratégicamente en toda el área metropolitana para optimizar la conectividad y minimizar la latencia.</br>
+<br>3.Puntos de acceso: Los puntos de acceso actúan como puertas de enlace para que los usuarios finales se conecten al MAN. Estos pueden incluir conmutadores Ethernet, 
+enrutadores y puntos de acceso inalámbrico implementados en diversos lugares, como edificios de oficinas, espacios públicos y vecindarios residenciales.</br>
+<br>4.Sistemas de administración de redes: los MAN generalmente se administran a través de sistemas de administración de redes centralizados, que monitorean el 
+rendimiento de la red, solucionan problemas y optimizan la asignación de recursos. Estos sistemas emplean una variedad de herramientas, protocolos y algoritmos 
+de monitoreo para garantizar el funcionamiento eficiente del MAN.</br>
+</p>
+              
+                              
+</div>
+ </div>
+
+         
+    <div id="content4" class="content"><center><b style="font-size: 60px;">RED WAN</b></center>
+                      
+               
+                       <div class="text">
+                           Una red de área amplia (WAN) es la tecnología que conecta entre sí a las oficinas, los centros de datos, 
+las aplicaciones en la nube y el almacenamiento en la nube. Se denomina red de área amplia porque se extiende más allá de un solo 
+edificio o un gran recinto para incluir múltiples ubicaciones repartidas a lo largo de una zona geográfica concreta, o incluso del mundo. 
+Por ejemplo, las empresas con muchas sucursales internacionales utilizan una WAN para conectar las redes de las oficinas entre sí. La WAN 
+más grande del mundo es Internet puesto que se trata de un conjunto de muchas redes internacionales que se conectan entre sí. Este artículo 
+se centra en las WAN empresariales y en sus usos y ventajas.
+  </div>
+                       
+
+                                 <div class="contenedor-derecha img" id="submenu2>
+                     <div class="contenedor-derecha">
+   
+        <img src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\imagenes\wan.gif ">
+                </div>  
+
+                             
+           <div class="audio-container">
+           <audio controls>
+             <source src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\audio\Text_to_Speech.wav" type="audio/mpeg">
+             </audio>
+               </div>
+              
+                              <p><center><br><b>¿Cuál es el objetivo de una conexión WAN?</center></br></b>
+
+Las redes de área amplia (WAN) son en la actualidad el eje central de las empresas. Ante la digitalización de los recursos, las empresas utilizan 
+las WAN para hacer lo siguiente:
+
+°Comunicarse mediante voz y video.
+°Compartir los recursos entre los empleados y los clientes.
+°Acceder al almacenamiento de datos y realizar copias de seguridad remotas.
+°Conectar con las aplicaciones que se ejecutan en la nube.
+°Ejecutar y alojar aplicaciones internas.
+°Las innovaciones tecnológicas de la WAN ayudan a las organizaciones a acceder a la información de forma segura, rápida y fiable. Las redes WAN son 
+importantes para la productividad y la continuidad del negocio.</p>
+
+                              
+</div>
+ </div>
+
+
+
+
+    <div id="content5" class="content"><center><b style="font-size: 60px;">RED WLAN</b></center>
+
+                   <div class="audio-container">
+           <audio controls>
+             <source src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\audio\wlan red.wav" type="audio/mpeg">
+             </audio>
+               </div>
+                      
+               
+                       <div class="text">
+                          Una red WLAN (Wireless Local Area Network) es una red de computadoras que utiliza tecnología inalámbrica para conectarse y 
+comunicarse entre sí.
+En una red WLAN, los dispositivos se conectan a un punto de acceso inalámbrico (WAP, por sus siglas en inglés), que es un dispositivo que emite una 
+señal de radio que permite a los dispositivos conectarse y comunicarse entre sí.
+  </div>
+                       
+
+                                 <div class="contenedor-derecha img" id="submenu2>
+                     <div class="contenedor-derecha">
+   
+        <img src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\imagenes\WLAN.webp ">
+                </div>  
+
+                             
+              
+                              <p><center><br><b>¿Cómo funcionan las redes WLAN?</center></br></b>
+
+Las redes WLAN funcionan utilizando tecnología inalámbrica para conectar dispositivos entre sí. Los dispositivos se conectan a un punto de acceso 
+inalámbrico (WAP), el cual emite una señal de radio que permite a los dispositivos conectarse y comunicarse entre sí.
+La conexión inalámbrica en una red WLAN se establece mediante una técnica llamada modulación de amplitud en cuadratura (QAM), que es un método de 
+modulación utilizado para transmitir datos a través de ondas de radio.
+El WAP (Puntos de acceso) y los dispositivos utilizan un protocolo de red; como el protocolo de Internet (IP), para comunicarse y coordinar sus 
+actividades en la red.
+Las redes WLAN pueden configurarse de diferentes maneras, como en una topología de estrella, en la que todos los dispositivos se conectan directamente 
+al WAP, o en una topología de malla, en la que pueden comunicarse directamente entre sí</p>
+
+                              
+</div>
+ </div>
+
+    <div id="content6" class="content"><center><b style="font-size: 60px;">RED CAN</b></center>
+
+                                   <div class="contenedor-derecha img" id="submenu2>
+                     <div class="contenedor-derecha">
+   
+        <img src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\imagenes\red can.png ">
+                </div> 
+               
+                       <div class="text">
+                          Las redes de área de controlador (CAN, por sus siglas en inglés) son un sistema de comunicación que permite la 
+transferencia de datos entre diferentes componentes de un sistema.
+Las redes CAN se utilizan principalmente en aplicaciones de la industria automotriz, aeroespacial y de maquinaria industrial, así como 
+en aplicaciones de energía renovable.
+  </div>
+                         <div class="audio-container">
+           <audio controls>
+             <source src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\audio\red can.wav" type="audio/mpeg">
+             </audio>
+               </div>
+
+                              <p><center><br><b>Características de las redes CAN</center></br></b>
+
+Una de las características más importantes de las redes CAN es su capacidad para comunicarse en tiempo real.
+Esto significa que los componentes de la red pueden enviar y recibir datos en cuestión de milisegundos, lo que permite la monitorización y el 
+control en tiempo real de los sistemas en los que se usa la red.
+
+<br><b>Multiplexación:</br></b>
+Las redes CAN también permiten la multiplexación de diferentes datos.
+Esto significa que múltiples tipos de datos se pueden enviar a través de la misma línea de comunicación. Cada mensaje tiene un identificador único, 
+lo que permite que los componentes de la red identifiquen y procesen los mensajes que son relevantes para ellos.</p>
+                            </div>
+</div>
+
+    <div id="content7" class="content"><center><b style="font-size: 60px;">RED SAN</b></center>
+               
+                            <div class="contenedor-derecha img" id="submenu2>
+                     <div class="contenedor-derecha">
+   
+        <img src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\imagenes\red san.jpg ">
+                </div> 
+
+                       <div class="text">
+                          Las redes SAN son una red de almacenamiento dedicada que permite a los servidores y dispositivos de almacenamiento compartir 
+datos a través de una conexión segura de alta velocidad.
+Las redes SAN se utilizan en entornos empresariales para manejar grandes cantidades de datos y proporcionar acceso rápido y seguro.
+En lugar de conectarse a través de una red de área local (LAN), los dispositivos del sistema SAN se conectan a través de una red de fibra óptica dedicada 
+(Sin divisiones ni cables intermedios).
+  </div>              
+ 
+                              <p><center><br><b>¿Cómo funcionan las redes SAN?</center></br></b>
+Las redes SAN funcionan al conectar múltiples dispositivos de almacenamiento (como discos duros, matrices de discos y cintas) a múltiples servidores 
+a través de una red dedicada de alta velocidad:
+Esta red se diseña específicamente para el almacenamiento de datos, lo que permite que los datos se muevan rápidamente entre los dispositivos de almacenamiento 
+y los servidores.
+En una red de área de almacenamiento típica, los servidores se conectan a través de adaptadores de bus de host (HBA) o controladores de interfaz de red (NIC) 
+especializados.
+Una vez que los dispositivos de almacenamiento están conectados a la red SAN, se pueden configurar para formar grupos de almacenamiento lógico conocidos 
+como volúmenes lógicos</p>
+
+                              
+</div>
+ </div>
+    <div id="content8" class="content"><center><b style="font-size: 60px;">RED VLAN</b></center>
+
+                      
+                       <div class="text">
+                          Las VLAN o también conocidas como «Virtual LAN» nos permite crear redes lógicamente independientes dentro de 
+la misma red física, haciendo uso de switches gestionables que soportan VLANs para segmentar adecuadamente la red. También es muy importante que 
+los routers que utilicemos soportan VLAN, de lo contrario, no podremos gestionarlas todas ni permitir o denegar la comunicación entre ellas. 
+Actualmente la mayoría de routers profesionales e incluso sistemas operativos orientados a firewall/router como pfSense o OPNsense soportan VLAN 
+porque es un estándar hoy en día.
+  </div>              
+
+
+
+                            <div class="contenedor-derecha img" id="submenu2>
+                     <div class="contenedor-derecha">
+   
+        <img src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\imagenes\vlan.gif ">
+                </div> 
+               
+
+                              <p><center><br><b>El uso de VLANs nos proporciona lo siguiente:</center></br></b>
+
+<center><b>Seguridad.</b> Las VLAN nos permite crear redes lógicamente independientes, por tanto, podemos aislarlas para que solamente tengan conexión a Internet, y denegar 
+el tráfico de una VLAN a otra. Por defecto no se permite a las VLANs intercambiar tráfico con otra VLAN, es totalmente necesario ascender a nivel de red (L3) 
+con un router o un switch multicapa, con el objetivo de activar el inter-vlan routing, es decir, el enrutamiento entre VLANs para sí permitir la comunicación 
+entre ellas siempre que lo necesitemos.</center>
+<center><b>Segmentación.</b> Las VLAN nos permite segmentar todos los equipos en diferentes subredes, a cada subred le asignaremos una VLAN diferente. Por ejemplo, podremos 
+crear una subred de gestión interna de todos los routers, switches y puntos de acceso, podremos crear una subred principal para los administradores, otra subred 
+para dispositivos IoT y otra subred diferente para invitados. Es decir, podremos segmentar la red principal en subred con el objetivo de que cada subred haga uso 
+de las comunicaciones como deseen. Gracias a la segmentación, podremos agrupar una gran cantidad de equipos dentro del mismo dominio de broadcast, aunque estén muy 
+lejos físicamente.</center>
+<center><b>Reducción de costes.</b> Debido a la poca necesidad de actualizaciones de red que son demasiado costosas, y gracias a un uso más eficaz de los enlaces y del ancho de 
+banda disponible, es posible reducir costes al realizar este tipo de redes. Las VLAN se pueden usar para crear dominios de transmisión que eliminan la necesidad 
+de costosos routers, lo cual ayuda aún más a reducir dichos costes.</center>
+<center><b>Mejor eficiencia del personal de TI.</b> Nos facilitarán el manejo de la red, debido a que diferentes usuarios pueden compartir una misma VLAN. Cuando implementamos 
+un nuevo switch, este implantará todas las políticas y procedimientos que tiene prestablecidos la VLAN. También hará más sencillo identificar la función de una 
+VLAN en concreto, al poder proporcionarle un nombre.</center></p>
+
+                              
+</div>
+ </div>
+
+    <div id="content9" class="content"> <center><b style="font-size: 60px;">RED PAN</b></center>
+
+                         <div class="contenedor-derecha img" id="submenu2>
+                     <div class="contenedor-derecha">
+   
+        <img src="C:\Users\acer\Downloads\PAGINA REDES INFORMATICAS\imagenes\red pan.jpg ">
+                </div>                       
+
+                       <div class="text">
+                          Las Redes de Área Personal, más conocidas por el acrónimo inglés de PAN (Personal Area Network), constituyen uno de los 
+campos de más rápida evolución en el ámbito de las redes informáticas.
+Las bases del concepto de red para espacio personal provinieron de ideas que surgieron en el año 1995 en el Massachusetts Institute of Technology (MIT) 
+provienen para usar en señales eléctricas o impulsos eléctricos provenientes del cuerpo humano, y así poder comunicar el mismo con dispositivos adjuntos. 
+Esto fue aceptado en primera instancia por los laboratorios de IBM Research y luego tuvo muchas variaciones desarrolladas por las diferentes instituciones y 
+compañías de investigación. Las diferentes soluciones de PAN incluyen lo siguiente:
+  </div>              
+                              <p><center><br><b>Red PAN: características más importantes:</center></br></b>
+
+<br>Una red PAN alcanza velocidades de transmisión relativamente bajas, de unos pocos [megabits por segundo]. El establecimiento de la conexión, 
+ya sea por cable o inalámbrica, es sencillo. La disposición de los dispositivos conectados responde a diferentes topologías de red. Por ejemplo, 
+son simples conexiones punto a punto o conexiones punto a multipunto.</br>
+<br>A continuación, te explicamos las diferencias cruciales entre las redes de área 
+personal por cable y las inalámbricas.</br>
+
+<br><b>WPAN: la red PAN inalámbrica</b>
+Una red PAN inalámbrica (también WPAN) establece una conexión sin necesidad de cable. Esto elimina la necesidad de tomas de corriente para los enchufes y 
+cables correspondientes. La conexión es fácil de establecer. Las redes de área personal de uso cotidiano recurren en la mayoría de los casos a la variante 
+inalámbrica. El alcance es reducido y se limita a una distancia de diez metros. Los muros y otras interferencias influyen mucho en la calidad de la conexión. 
+Las velocidades de transmisión de datos son bajas.</br>
+
+<br><b>Red PAN por cable</b>
+La red PAN por cable se utiliza con mucha menos frecuencia en la vida cotidiana. La longitud del cable suele limitarse a unos pocos centímetros. La mayor ventaja 
+en comparación con la conexión inalámbrica a través de una WPAN es la mayor velocidad de transmisión.</br>
+
+
+<br>Una red de área personal (PAN) es una red de computadora utilizada para la comunicación entre los dispositivos de información de la computadora y diferentes
+tecnologías cerca de una persona. 
+PAN representa el concepto de redes centradas en las personas, y que les permiten a dichas personas comunicarse con sus dispositivos personales (ejemplo, PDAs, 
+tableros electrónicos de navegación, agendas electrónicas, computadoras portátiles) para así hacer posible establecer una conexión inalámbrica con el mundo externo
+Algunos ejemplos de dispositivos que se utilizan en un PAN son las computadoras personales, impresoras, máquinas de fax, teléfonos, PDA, escáneres y consolas de 
+videojuegos.</br> </p>
+            
+</div>
+ </div>
+
+</div>
+
+<script>
+    function toggleSubmenu(submenuId) {
+        // Obtiene el submenú y alterna su visibilidad
+        const submenu = document.getElementById(submenuId);
+        submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+    }
+
+    function showContent(contentId) {
+        // Oculta todos los contenidos
+        const contents = document.querySelectorAll('.content');
+        contents.forEach(content => content.classList.remove('active'));
+
+        // Muestra el contenido correspondiente
+        const selectedContent = document.getElementById(contentId);
+        selectedContent.classList.add('active');
+
+          
+    }
+</script>
+
+</body>
+</html>
